@@ -146,7 +146,7 @@ ul {
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     outline: none !important;
     background-color: var(--seacab-base);
     color: var(--seacab-white);
@@ -1615,10 +1615,11 @@ ul {
 
 .main-slider-img-1 img {
     opacity: 0;
-    visibility: hidden;
+    visibility: visible;
     transform: translateX(100%);
     transition-delay: 1000ms;
     transition: transform 2000ms ease, opacity 2000ms ease;
+    z-index: 999;
 }
 
 .swiper-slide-active .main-slider-img-1 img {
@@ -1932,7 +1933,7 @@ ul {
     display: block;
 }
 
-.main-slider-two .container {}
+/* .main-slider-two .container {} */
 
 .main-slider-two .image-layer {
     position: absolute;
