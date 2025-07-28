@@ -173,15 +173,15 @@ header{
 
 .content .btn button:nth-child(2){
     background: transparent;
-    color: #14ff72cb;
+    color: #2F9BE8;
     border: 2px solid #fff;
     transition: 0.3s;
 }
 
 .content .btn button:nth-child(2):hover{
-    background-color: #14ff72cb;
+    background-color: #2F9BE8;
     color: #fff;
-    border-color: #14ff72cb;
+    border-color: #2F9BE8;
 }
 
 
@@ -225,7 +225,7 @@ header{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #14ff72cb;
+    background-color: #2F9BE8;
     color: #fff;
     border: none;
     outline: none;
@@ -248,7 +248,7 @@ header{
     z-index: 1000;
     width: 0%;
     height: 4px;
-    background-color: #14ff72cb;
+    background-color: #2F9BE8;
     left: 0;
     top: 0;
     animation: runningTime 7s linear 1 forwards;
