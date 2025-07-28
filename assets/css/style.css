@@ -284,22 +284,22 @@ header{
 
 }
 
-@media screen and (max-width: 690px){
+@media screen and (max-width: 490px){
     header nav a{
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 0;
     }
 
     .list .item .content{
-        top: 40%;
+        top: 30%;
     }
 
     .content .title, .content .name{
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .content .btn button{
-        padding: 10px 15px;
-        font-size: 14px;
+        padding: 8px 12px;
+        font-size: 12px;
     }
 }
