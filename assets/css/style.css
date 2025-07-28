@@ -267,11 +267,11 @@ header{
 @media screen and (max-width: 999px){
     
     header{
-        padding-left: 50px;
+        padding-left: 30px;
     }
 
     .list .item .content{
-        left: 50px;
+        left: 30px;
     }
 
     .content .title, .content .name{
@@ -301,5 +301,9 @@ header{
     .content .btn button{
         padding: 8px 12px;
         font-size: 12px;
+    }
+    .item{
+        width: 760px;
+        height: 200px;
     }
 }
